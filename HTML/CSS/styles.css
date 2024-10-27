@@ -1,0 +1,134 @@
+/* Reset margins and padding for html and body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body spans the full height */
+}
+
+/* Full-width purple section starting from the very top */
+#contactInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0aaff; /* Bright purple background */
+    padding: 10px 20px;
+    color: #000; /* Black color for text */
+    width: 100%; /* Ensures it covers full width */
+    box-sizing: border-box; /* Accounts for padding within width */
+    margin-top: 0; /* Ensures no extra spacing at the top */
+}
+
+
+#quote {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #000;
+    flex: 1;
+    text-align: left;
+}
+
+#quoteAuthor {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 2px;
+    text-align: left;
+}
+
+#contactLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* More distance between icons */
+    flex: 1;
+    justify-content: center;
+}
+
+#contactLinks img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+#contactLinks a:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+#address {
+    font-size: 0.9em;
+    text-align: right;
+    flex: 1;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-top: 0; /* Ensure no margin at the top */
+}
+
+#indexBodyHeader1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    background-image: url('F:/Uni/EWA/Projects/Kindergarten/Resources/logo.jpeg'); /* Adjust path as necessary */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8; /* Slight transparency for the image */
+    padding: 20px;
+    position: relative;
+}
+
+h1, h2, p {
+    color: rgba(0, 0, 0, 0.8); /* Text color for readability over the background */
+    position: relative;
+}
+
+/* Footer Placeholder */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 0.9em;
+}
+
+/* Additional Utility Styles */
+ul {
+    padding-left: 20px; /* Indent unordered lists */
+}
+
+strong {
+    font-weight: bold;
+}

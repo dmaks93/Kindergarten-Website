@@ -157,3 +157,48 @@ ul {
 strong {
     font-weight: bold;
 }
+
+
+/* Navigacija */
+/*menu animation*/
+.menu-label {
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 26px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.nav-item {
+    padding: 6px;
+    padding-bottom: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-item:hover {
+
+    color: rgb(184, 5, 5);
+}
+
+.nav-link {
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgb(184, 5, 5);
+    color: rgb(184, 5, 5) !important;
+
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.742);
+}

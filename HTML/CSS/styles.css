@@ -26,6 +26,23 @@ body {
     z-index: 1030;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.pb-2, .py-2 {
+    padding-bottom: .5rem !important;
+    padding-top: .5rem !important;
+}
+
+#contactBar {
+    background-color: green;
+    color: white !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
 
 #quote {
     font-style: italic;

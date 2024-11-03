@@ -202,3 +202,18 @@ strong {
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 0.742);
 }
+
+/*Sadržaj*/
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hero-section {
+    padding-top: 100px;
+}
+
+.hero-text {
+    font-size: 22px;
+    font-weight: 400;
+}

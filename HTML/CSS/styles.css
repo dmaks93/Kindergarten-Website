@@ -217,3 +217,48 @@ section {
     font-size: 22px;
     font-weight: 400;
 }
+
+.btn-primary {
+    background-color: green;
+    border-color: green;
+    padding: 10px 20px;
+
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: green !important;
+    border-color: green !important;
+}
+
+.btn-secondary {
+    background-color: white;
+    border-color: green;
+    padding: 10px 20px;
+    color: green;
+
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: white !important;
+    border-color: green !important;
+    color: green !important;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn-with-fixed-width-1{
+    width: 230px;
+}

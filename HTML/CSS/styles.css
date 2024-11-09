@@ -262,3 +262,26 @@ section {
 .btn-with-fixed-width-1{
     width: 230px;
 }
+
+.image-text-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: flex-start; /* Vertically center align the image and text */
+    margin-bottom: 40px; /* Add some space between sections */
+}
+
+.image-text-container img {
+    margin-right: 20px; /* Add space between the image and text */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* Stack the headline and paragraph vertically */
+}
+
+.text-content h3 {
+    margin: 0; /* Remove any margin from the headline */
+}
+
+.text-content p {
+    margin-top: 10px; /* Add some space between the headline and paragraph */
+}

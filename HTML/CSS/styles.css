@@ -285,6 +285,6 @@ section {
 }
 
 .navbar-brand img {
-    max-width: 350px; /* Adjust as necessary */
+    max-width: 340px; /* Adjust as necessary */
     height: auto; /* Ensures the image scales proportionally */
 }

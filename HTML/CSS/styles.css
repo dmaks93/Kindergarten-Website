@@ -300,7 +300,12 @@ section {
 }
 
 /* boje */
-.main-color{
+.main-color-green{
     fill: rgba(0, 128, 0, 0.8);
     background-color: rgba(0, 128, 0, 0.8);
+}
+
+.main-color-blue{
+    fill: rgba(0, 136, 255, 0.8);
+    background-color: rgba(0, 136, 255, 0.8);
 }

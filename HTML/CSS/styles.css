@@ -35,10 +35,19 @@ body {
     padding-top: .5rem !important;
 }
 
+.py-2-custom {
+    padding-bottom: .5rem !important;
+}
+
 #contactBar {
-    background-color: green;
+    /*background-color: green;*/
     color: white !important;
     height: 1.5rem
+}
+
+.wave {
+    background-color: white;
+    //transform: rotate(180deg);
 }
 
 .text-white {
@@ -288,4 +297,10 @@ section {
 .navbar-brand img {
     max-width: 250px; /* Adjust as necessary */
     height: 80px; /* Ensures the image scales proportionally */
+}
+
+/* boje */
+.main-color{
+    fill: rgba(0, 128, 0, 0.8);
+    background-color: rgba(0, 128, 0, 0.8);
 }

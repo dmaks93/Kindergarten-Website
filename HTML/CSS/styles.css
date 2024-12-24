@@ -296,7 +296,7 @@ section {
 
 .navbar-brand img {
     max-width: 250px; /* Adjust as necessary */
-    height: 80px; /* Ensures the image scales proportionally */
+    height: 3.6em; /* Ensures the image scales proportionally */
 }
 
 /* boje */

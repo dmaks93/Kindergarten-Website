@@ -54,6 +54,10 @@ body {
     color: #fff !important;
 }
 
+.text-blue{
+    color: rgba(0, 136, 255, 1);
+}
+
 #quote {
     font-style: italic;
     font-size: 0.9em;

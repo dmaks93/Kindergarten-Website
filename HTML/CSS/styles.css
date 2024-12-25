@@ -349,3 +349,18 @@ section {
     height: 100%;
     border: 0;
 }
+
+.contact-info {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; /* Default text color */
+}
+
+.contact-info a {
+    color: #007bff; /* Matches the main-color-blue */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker shade for hover */
+}

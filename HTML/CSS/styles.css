@@ -54,6 +54,10 @@ body {
     color: #fff !important;
 }
 
+.text-black {
+    color: #000 !important;
+}
+
 .text-blue{
     color: rgba(0, 136, 255, 1);
 }

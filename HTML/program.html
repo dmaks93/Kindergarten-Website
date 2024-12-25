@@ -9,53 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="./skripte.js"></script>
 </head>
 
 <body>
-<header class="fixed-top">
-    <div id="contactBar" class="text-center py-2-custom main-color-blue">
-            <span>
-                <a href="tel:+38712345678" class="text-white">&#9990; +387 12 345 678</a>
-                &nbsp;&nbsp;&nbsp;<!-- razmak -->
-                <a href="mailto:info@djecijisnovi.ba" class="text-white">&#9993; info@djecijisnovi.ba</a>
-            </span>
-    </div>
-    <div style="height: 10px; overflow: hidden;">
-        <svg viewBox="0 0 500 30" preserveAspectRatio="none" style="height: 300%; width: 100%; background-color:white">
-            <path class="main-color-blue"
-                  d="M-34.14,3.48 C189.33,24.19 380.07,-16.27 516.08,12.34 L500.00,0.00 L96.78,-22.19 Z"
-                  style="stroke: none;"></path>
-        </svg>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">
-                <img src="../Resources/headerProCut.PNG" alt="header">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">O nama</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="program.html">Program</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ishrana.html">Ishrana</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+<div w3-include-html="header.html"></div>
 
 <main class="container mt-5 pt-5">
     <section id="heroSection" class="hero-section">
@@ -237,6 +195,10 @@
                      class="rounded ">
     </section>
 </main>
-
+<div w3-include-html="footer.html"></div>
 </body>
+
+<script>
+    includeHTML();
+</script>
 </html>

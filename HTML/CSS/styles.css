@@ -47,7 +47,7 @@ body {
 
 .wave {
     background-color: white;
-    //transform: rotate(180deg);
+/ / transform: rotate(180 deg);
 }
 
 .text-white {
@@ -58,7 +58,7 @@ body {
     color: #000 !important;
 }
 
-.text-blue{
+.text-blue {
     color: rgba(0, 136, 255, 1);
 }
 
@@ -279,7 +279,7 @@ section {
     box-shadow: none !important;
 }
 
-.btn-with-fixed-width-1{
+.btn-with-fixed-width-1 {
     width: 230px;
 }
 
@@ -312,17 +312,17 @@ section {
 }
 
 /* boje */
-.main-color-green{
+.main-color-green {
     fill: rgba(0, 128, 0, 0.8);
     background-color: rgba(0, 128, 0, 0.8);
 }
 
-.main-color-blue{
+.main-color-blue {
     fill: rgba(0, 136, 255, 0.8);
     background-color: rgba(0, 136, 255, 0.8);
 }
 
-.orange-warning{
+.orange-warning {
     background-color: rgba(255, 160, 0, 0.6)
 }
 

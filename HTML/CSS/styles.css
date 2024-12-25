@@ -147,7 +147,6 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.8; /* Slight transparency for the image */
     padding: 20px;
     position: relative;
 }

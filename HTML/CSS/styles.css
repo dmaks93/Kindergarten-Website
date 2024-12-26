@@ -336,7 +336,7 @@ section {
     align-items: center; /* Horizontal centering */
     justify-content: center; /* Vertical centering */
     min-height: calc(100vh - 100px); /* Full viewport height minus header height */
-    padding-top: 100px; /* Ensure content doesn't overlap with the fixed header */
+    padding-top: 0px;
     text-align: center;
 }
 

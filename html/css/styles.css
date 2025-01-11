@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%; /* Ensure the body spans the full height */
+    background-color: #FFF9F2;
 }
 
 /* Full-width purple section starting from the very top */
@@ -392,3 +393,13 @@ section {
     text-decoration: none; /* Remove underline for Facebook link */
 }
 
+
+/* Hover effect for the Viber icon */
+#contactBar a[href^="viber://"]:hover img {
+    content: url("html/resources/viberDark.png");
+}
+
+/* Hover effect for the Facebook icon */
+#contactBar a[href*="facebook.com"]:hover img {
+    content: url("html/resources/facebookDark.png");
+}

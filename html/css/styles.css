@@ -381,3 +381,14 @@ section {
 .naslov-svake-strane{
     margin-top: 4em;
 }
+
+/* Remove underline for the Viber link */
+#contactBar a[href^="viber://"]:hover {
+    text-decoration: none; /* Remove underline for Viber link */
+}
+
+/* Remove underline for the Facebook link */
+#contactBar a[href*="facebook.com"]:hover {
+    text-decoration: none; /* Remove underline for Facebook link */
+}
+

@@ -230,7 +230,11 @@ section {
 }
 
 .hero-section-custom {
-    padding-top: 0px;
+    padding-top: 10px;
+}
+
+.hero-section-custom-program {
+    padding-top: 30px;
 }
 
 .hero-text {
@@ -337,7 +341,6 @@ section {
     align-items: center; /* Horizontal centering */
     justify-content: center; /* Vertical centering */
     min-height: calc(100vh - 100px); /* Full viewport height minus header height */
-    padding-top: 0px;
     text-align: center;
 }
 
